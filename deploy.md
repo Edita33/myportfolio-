@@ -23,3 +23,11 @@ Le fichier ci.yml vérifie automatiquement le projet.
 5. Push GitHub
 6. CI/CD
 7. Déploiement Scalingo
+
+## Variables d’environnement
+
+Sur Scalingo, les variables suivantes sont définies dans le dashboard :
+
+- APP_ENV : prod
+- APP_DEBUG : 0
+- DEFAULT_URI : https://myportfolio.osc-fr1.scalingo.io
